@@ -1,0 +1,33 @@
+.TransactionLog {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+  border-bottom: solid 0.5px rgba(0, 0, 0, 0.1);
+  padding: 5px 0px 10px 0px;
+  grid-gap: 2px;
+}
+.Income {
+  color: rgba(39, 174, 96, 1);
+}
+.Expense {
+  color: rgba(192, 57, 43, 1);
+}
+.logTitle {
+  font-weight: 600;
+}
+.logDescription {
+  font-weight: 200;
+}
+.logAmount {
+  align-items: center;
+  justify-self: end;
+}
+.logDate {
+  font-size: 0.7rem;
+  justify-self: end;
+  text-align: right;
+  color: gray;
+}
+.logAmountSymbol {
+  text-align: center;
+}
