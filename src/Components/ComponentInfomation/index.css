@@ -1,0 +1,69 @@
+.ComponentInformation {
+  padding: 10px 0px 10px;
+  font-size: 0.8rem;
+  position: relative;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.ComponentInformation:before,
+.ComponentInformation:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  -moz-border-radius: 100px / 10px;
+  border-radius: 100px / 10px;
+}
+.ComponentInformation:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: skew(8deg) rotate(3deg);
+  -moz-transform: skew(8deg) rotate(3deg);
+  -ms-transform: skew(8deg) rotate(3deg);
+  -o-transform: skew(8deg) rotate(3deg);
+  transform: skew(8deg) rotate(3deg);
+}
+.AppHeader {
+  padding: 30px 20px 30px 20px;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 3px 1px 0px var(--color-1);
+  font-size: 2rem;
+  color: var(--color-2);
+}
+.BalanceBar {
+  width: 100%;
+  display: grid;
+  grid-row-gap: 2px;
+}
+.BalanceBar * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Expense {
+  background-color: lightcoral;
+  height: 10px;
+}
+.Balance {
+  background-color: lightgreen;
+  height: 10px;
+}
+.incomeDescription {
+  grid-column: 1/-1;
+}
+.ExpenseP {
+  color: lightcoral;
+}
+.BalanceP {
+  color: lightseagreen;
+}

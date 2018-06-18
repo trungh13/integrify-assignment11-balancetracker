@@ -1,11 +1,18 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
-    font-family: 'Montserrat', sans-serif;
+
+.container{
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--color-1);
+    background-color:var(--color-4)
 }
 .App{
-    width:90%;
-    margin:auto;
-    padding:50px 0px;
+    width:60%;
+    min-width: 350px;
+    box-shadow: 15px 10px var(--color-2);
+    padding:0.5px;
+    background-color: white;
+    position: relative;
 }

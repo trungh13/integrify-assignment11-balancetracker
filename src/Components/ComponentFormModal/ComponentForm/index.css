@@ -1,3 +1,45 @@
 .warning::placeholder{
     color:red;
 }
+.ComponentForm{
+    height:100%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ComponentForm h2{
+    width: 80%;
+    text-align :center;
+}
+.FormGrid{
+    display:grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap:10px;
+    width: 80%;
+}
+.FormGrid input[type="text"],.FormGrid input[type="number"],select{
+    border:none;
+    border-bottom:1px solid gray;
+    background-color:white;
+    line-height: 30px;
+}
+.InputDescription{
+    grid-column: 1/-1;
+}
+.FormGrid button{
+    padding:5px 15px;
+    border:0.5px lightgray solid;
+}
+.FormGrid button:hover{
+    background-color:lightskyblue;
+    color:white;
+}
+.BtnSubmit{
+    justify-self: end;
+}
+.BtnClose{
+    grid-column:2/-1;
+    justify-self: start;
+}

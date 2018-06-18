@@ -1,5 +1,21 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+:root{
+  --color-1:#003049;
+  --color-2:#D62828;
+  --color-3:#F77F00;
+  --color-4:#FCBF49;
+  --color-5:#EAE2B7;
+}
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+}
+html,body,#root{
+  height:100%;
+  width: 100%;
+}
+:global #root{
+  height:100%;
+  width: 100%;
 }

@@ -1,4 +1,6 @@
-.TransactionHeader{
-    display:grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+.ComponentMain{
+    padding:20px 10px;
+    height:450px;
+    overflow: scroll;
+    z-index:0;
 }
