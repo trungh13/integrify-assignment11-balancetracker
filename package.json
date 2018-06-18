@@ -1,4 +1,5 @@
 {
+  "homepage": "http://trungh13.github.io/integrify-assignment11-balancetracker",
   "name": "integrify-assignment11-balancetracker",
   "version": "0.1.0",
   "private": true,
@@ -49,7 +50,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -92,5 +95,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
