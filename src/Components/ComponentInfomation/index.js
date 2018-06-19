@@ -16,7 +16,7 @@ export class ComponentInformation extends Component {
 
     return (
       <div className={styles.ComponentInformation}>
-        <h1 className={styles.AppHeader}>Account Balance Application</h1>
+        <h1 className={styles.AppHeader}>Balance Tracker Application</h1>
         <div className={styles.BalanceBar} style={BalanceBarStyles}>
           <p className={styles.ExpenseP}> Expense : {-expense} €</p>
           <p className={styles.BalanceP}> Balance : {balance} €</p>

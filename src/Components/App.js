@@ -52,7 +52,7 @@ class App extends Component {
       },
       {
         inputTitle: "Parking ticket",
-        inputDescription: "Fuck police",
+        inputDescription: "Come on, 5 minutes only",
         inputDate: "10/04/2018 20:44:25",
         inputAmount: -80
       },
@@ -78,7 +78,6 @@ class App extends Component {
     });
   };
   render() {
-    console.log(this.state.transaction);
     return (
       <div className={styles.container}>
         <div className={styles.App}>
